@@ -7,7 +7,7 @@ addons:
   sonarcloud:
     organization: "piercirocaliandro"
     token:
-      secure: "948d4f6805f90686af4e3a378ebf2e0e40b0a7a"
+      secure: ${SONAR_TOKEN}
 
 script:
 - ant build
